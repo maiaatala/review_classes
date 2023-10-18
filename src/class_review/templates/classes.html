@@ -1,0 +1,8 @@
+{% extends "base.html" %} {% block content %}
+<h1>Classes</h1>
+<ul>
+  {% for class in classes %}
+  <li>{{class.label}}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

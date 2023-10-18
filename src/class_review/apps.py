@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AulasConfig(AppConfig):
+class ClassReviewConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'aulas'
+    name = 'class_review'
